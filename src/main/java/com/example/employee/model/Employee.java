@@ -11,6 +11,17 @@ public class Employee {
     private String address;
     private Long age;
 
+    public Employee(int id, String name, String address, long age) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
+
+    public Employee() {
+
+    }
+
     public int getId() {
         return id;
     }
